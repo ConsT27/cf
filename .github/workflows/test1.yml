@@ -16,6 +16,7 @@ jobs:
     - name: test1
       env: 
         secret: '${{ secrets.LALALA }}'
+      run: whoami
 
         
     - name: checkout
