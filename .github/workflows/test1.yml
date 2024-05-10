@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       env: 
-        secret: '${{ secrets.secret }}'
+        secret: '${{ secrets.LALALA }}'
         run: echo "$secret"
         
     - name: checkout
